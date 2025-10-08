@@ -1,0 +1,6 @@
+language: 
+services:
+  - docker
+script:
+
+ - docker build -t logger .
